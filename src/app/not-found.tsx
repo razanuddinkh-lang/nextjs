@@ -14,7 +14,7 @@ export default function NotFound() {
           LOST REP.
         </h1>
 
-        <p className="mt-4 text-zinc-400">
+        <p className="mt-4 text-zinc-300">
           That workout or route does not exist.
         </p>
 
