@@ -6,7 +6,7 @@ export default function NotFound() {
 
       <div className="text-center">
 
-        <p className="text-sm font-black tracking-[.3em] text-[#ccff00]">
+        <p className="text-sm font-black tracking-[.4em] text-[#ccff00]">
           ERROR 404
         </p>
 
