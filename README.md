@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️ FitLog — Workout Library
 
-## Getting Started
+FitLog is a responsive workout library web application built with Next.js and TypeScript. It allows users to explore workouts, view detailed exercise information, create a personal workout plan, save workouts for later, and track completed exercises.
 
-First, run the development server:
+## 🚀 Technologies Used
+
+* **Next.js** — React framework with App Router
+* **TypeScript** — Type-safe JavaScript
+* **Tailwind CSS** — Utility-first styling
+* **DaisyUI** — UI components and styling utilities
+* **React Toastify** — Toast notifications
+* **Context API** — Global state management
+* **LocalStorage** — Persisting plans, saved workouts, and completed workouts
+* **REST API** — Fetching workout data
+
+## ✨ Key Features
+
+### 1. 📚 Workout Library
+
+Browse a collection of workouts with images, muscle groups, equipment, difficulty, duration, calories, and ratings.
+
+### 2. 🔎 Workout Details
+
+View complete workout information, including description, equipment, difficulty, sets, reps, calories, rating, and step-by-step instructions.
+
+### 3. 📋 Personal Workout Plan
+
+Add workouts to **Today's Plan** and manage your selected exercises in one place. Users can add up to 5 workouts to their plan.
+
+### 4. ❤️ Save & Track Workouts
+
+Save workouts for later and mark completed workouts as **Done**. Plan, saved, and completed workout data is preserved using LocalStorage.
+
+### 5. 🔃 Sorting & Responsive Design
+
+Sort workouts by **Duration, Calories, or Rating**. The application is fully responsive and optimized for mobile, tablet, and desktop screens.
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/
+│   ├── my-plan/
+│   ├── workout/
+│   │   └── [id]/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── not-found.tsx
+│
+├── components/
+│   ├── Footer.tsx
+│   ├── Navbar.tsx
+│   ├── PlanCard.tsx
+│   ├── SortSelect.tsx
+│   ├── WorkoutCard.tsx
+│   └── ...
+│
+├── context/
+│   └── AppProvider.tsx
+│
+├── lib/
+│   └── api.ts
+│
+└── types/
+    └── workout.ts
+```
+
+## ▶️ Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/razanuddinkh-lang/Assignment-6.git
+```
+
+Go to the project directory:
+
+```bash
+cd Assignment-6
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Production Build
 
-## Learn More
+Create a production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+## 🌐 Live Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project can be deployed using **Vercel** for production hosting.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2026 FitLog — Workout Library. Train hard, log honest.
