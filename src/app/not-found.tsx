@@ -10,7 +10,7 @@ export default function NotFound() {
           ERROR 404
         </p>
 
-        <h1 className="mt-3 text-7xl font-black">
+        <h1 className="mt-3 text-6xl font-black">
           LOST REP.
         </h1>
 
