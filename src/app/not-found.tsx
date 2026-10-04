@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <main className="grid min-h-[70vh] place-items-center bg-black px-4 text-white">
+    <main className="grid min-h-[70vh] place-items-center bg-black px-5 text-white">
 
       <div className="text-center">
 
