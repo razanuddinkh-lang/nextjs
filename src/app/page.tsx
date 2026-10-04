@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Hero */}
 
-      <section className=" bg-slate-950 m-5 px-4 py-14 text-white lg:px-6 lg:py-20 border-1 border-zinc-800 rounded-2xl ">
+      <section className=" bg-slate-950 m-5 px-4 py-14 text-white lg:px-6 lg:py-19 border-1 border-zinc-800 rounded-2xl ">
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2">
 
           {/* Left */}
